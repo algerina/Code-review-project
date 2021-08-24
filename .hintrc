@@ -1,0 +1,62 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@algerina 
+microverseinc
+/
+linters-config
+13
+115
+429
+Code
+Issues
+5
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+linters-config/html-css/.hintrc
+@SpaYco
+SpaYco Add "inline-style-disabled" Hint (#139)
+Latest commit 2034913 on Mar 23
+ History
+ 2 contributors
+@SpaYco@MauricioRobayo
+18 lines (18 sloc)  338 Bytes
+  
+{
+  "connector": {
+    "name": "local",
+    "options": {
+      "pattern": ["**", "!.git/**", "!node_modules/**"]
+    }
+  },
+  "extends": ["development"],
+  "formatters": ["stylish"],
+  "hints": [
+    "button-type",
+    "disown-opener",
+    "html-checker",
+    "meta-charset-utf-8",
+    "meta-viewport",
+    "no-inline-styles:error"
+  ]
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
